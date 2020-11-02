@@ -1,3 +1,5 @@
 <?php
-    print"Hello php";
+    $a=1;
+    echo "Hello" . "php";
+    echo $a;
 ?>
