@@ -1,8 +1,7 @@
-<?
-	if(isset($_GET['email'])){
-		echo "invalid/empty input";
-	}
-
+<?php
+if(isset($_GET['msg'])){
+	echo "invalid request";
+}
 ?>
 
 <html>
