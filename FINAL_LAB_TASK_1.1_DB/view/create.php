@@ -5,7 +5,6 @@ require_once('../controller/databaseConnect.php');
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

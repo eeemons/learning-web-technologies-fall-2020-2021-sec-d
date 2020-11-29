@@ -120,5 +120,4 @@ function updateUser($conn, $id, $username, $password, $email){
         
     }
     
-    
 }

@@ -5,7 +5,6 @@ require_once('../controller/database.php');
 
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

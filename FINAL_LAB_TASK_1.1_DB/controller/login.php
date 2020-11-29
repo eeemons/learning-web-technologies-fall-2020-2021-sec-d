@@ -20,6 +20,4 @@ if(isset($_REQUEST['login'])){
     
 }
 
-
-
 ?>
