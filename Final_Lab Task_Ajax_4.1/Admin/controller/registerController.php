@@ -2,7 +2,6 @@
 	require_once('../services/userService.php');
 
 	if(isset($_POST['submit'])){
-
 		$name 	= $_POST['name'];
 		$company_name = $_POST['company_name'];
 		$username 	= $_POST['username'];

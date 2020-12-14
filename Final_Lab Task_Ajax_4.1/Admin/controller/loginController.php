@@ -11,7 +11,6 @@ if(isset($_POST['submit'])){
         header('location: ../views/login.php?error=null');
 
     }else{
-
         $user = [
             'username' => $username,
             'password'=>$password

@@ -9,8 +9,6 @@
         global $dbuser;
         global $dbpass;
         global $dbname;
-
-    
         return $conn = mysqli_connect($host,$dbuser,$dbpass,$dbname);
     }
 

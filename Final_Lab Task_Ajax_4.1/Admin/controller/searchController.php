@@ -5,7 +5,6 @@
   $username = $_POST['username']; 
   $user = SearchByUsername($username);
 
-  
   if(empty($username)){
 
     echo "Username field is required";
