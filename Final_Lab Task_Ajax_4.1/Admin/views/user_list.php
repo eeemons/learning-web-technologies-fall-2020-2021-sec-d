@@ -10,7 +10,7 @@
 </head>
 <body>
 
-	<h1>Employer List page</h1>
+	<h1>User List</h1>
 
 	<?php
 		$users = getAllUser();
