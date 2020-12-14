@@ -31,10 +31,7 @@
 					<td>Username</td>
 					<td><input type="text" name="username" value="<?=$user['username']?>"></td>
                 </tr>
-                <tr>
-					<td>Company Name</td>
-					<td><input type="text" name="company_name" value="<?=$user['company_name']?>"></td>
-				</tr>
+
 				<tr>
 					<td>Password</td>
 					<td><input type="password" name="password" value="<?=$user['password']?>"></td>

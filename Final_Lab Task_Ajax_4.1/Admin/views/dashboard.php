@@ -19,25 +19,14 @@
 <html>
 
 <head>
-
-<style>
-	.dashboard-left-panel{
-		background-color: yellow;
-		padding-bottom: 100%;
-	}
-    .search-panel{
-        padding-right: 50%;
-        padding-top: 10%;
-    }
-
-</style>
    
 
     <title>ADMIN | Dashboard</title>
 </head>
 
 <body>
-    <h5>Welcome Home <?=$_SESSION['username']?></h5>
+    <center>
+    <h1>Welcome Home <?=$_SESSION['username']?></h1>
 
 
     <form action="../controller/searchController.php">
@@ -45,17 +34,18 @@
             <tr>
                 <td>
                     <div class="dashboard-left-panel">
-                        <nav> <a href="register_employer.php">Register</a></nav>
-                        <nav> <a href="employer_list.php">Edit Employer</a></nav>
-                        <nav> <a href="profile.php">Profile</a></nav>
-                        <nav> <a href="../controller/logoutController.php">Logout</a></nav>
+                        <a href="change_password.php">Change Password</a><br>
+                        <a href="profile.php">Profile</a><br>
+                        <a href="user_list.php">View User</a><br>
+                        <a href="../controller/logoutController.php">Logout</a><br>
+
                     </div>
                 </td>
             </tr>
 
         </table>
     </form>
-
+</center>
 
 
 </body>

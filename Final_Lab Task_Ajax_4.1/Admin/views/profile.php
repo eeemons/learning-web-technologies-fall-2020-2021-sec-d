@@ -2,10 +2,7 @@
 	
 	require_once('../controller/sessionController.php');	
     require_once('../services/userService.php');	
-    
-    //$username = $_SESSION['username'];
-    // $name = $_SESSION['name'];
-    // $email = $_SESSION['email'];
+
 
     $user = getAdminProfile($_SESSION['username']);
 
@@ -41,6 +38,11 @@
             <tr>
                 <td>Email/Contact</td>
                 <td><?=$user['contact']?></td>
+            </tr>
+
+            <tr>
+                <td>User Type</td>
+                <td><?=$user['user_type']?></td>
             </tr>
 
 
