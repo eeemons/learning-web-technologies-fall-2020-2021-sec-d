@@ -1,0 +1,2 @@
+rahanuma|123456|rahanuma@tasnim.com|purchaser|rahanuma
+fahim|123456|fahim@example.com|purchaser|fahim
